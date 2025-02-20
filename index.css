@@ -1,0 +1,9 @@
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  @apply appearance-none;
+}
+
+/* Remove arrows in Firefox */
+[type="number"] {
+  -moz-appearance: textfield;
+}
